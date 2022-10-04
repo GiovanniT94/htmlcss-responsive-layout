@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.container{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.flex{
+    display: flex;
+}
+
+li{
+    padding: 0 1rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.violet{
+    color: #9593e6;
+}
+.underline{
+    text-decoration: underline;
+}
+.btn{
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+.btn-white{
+    background-color: white;
+    color: black;
+}
+.btn-blue{
+    color: white;
+    background-color: #0085fd;
+}
+p{
+    line-height: 27px;
+}
+
+header{
+    background-color: #0085fd;
+    color: white;
+}
+.logo img{
+    width: 70px;
+}
+header ul{
+    list-style-type: none;
+}
+header .flex{
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.lista-menu{
+    display: none;
+    font-size: 14px;
+}
+
+.first-section{
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+.column{
+    padding: 10px 0;
+}
+.first-section .col{
+    background-color: #b4ddff;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+.first-section .col p{
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+.first-section .col .left{
+    text-align: left;
+}
+.larga{
+    text-align: left;
+}
+.larga .col{
+    height: 100%;
+}
+.first-section h3{
+    color: #0085fd;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.first-section .icon{
+    color: #0085fd;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+.stretta .col{
+    height: 100%;
+}
+.larga .btn{
+    width: 180px;
+    padding: 8px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.strategy-section{
+    background-color: #9593e6;
+    color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+.white-background{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.strategy-left h3{
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+.white-background{
+    text-align: center;
+}
+.white-background p{
+    font-style: italic;
+}
+.white-background h3{
+    padding: 30px 0;
+}
+.strategy-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #9593e6;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.testimonials{
+    margin-bottom: 3.5rem;
+}
+.testimonials *{
+    margin-bottom: 1.5rem;
+}
+.testimonials .row{
+    background-color: #9593e6;
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+}
+.testimonials .text{
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+}
+.text h3{
+    color: #9593e6;
+    font-size: 30px;
+}
+.img-testimonial{
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-testimonial img{
+    height: 100%;
+    object-fit: cover;
+}
+.testimonials .flex{
+    display: block;
+}
+.no-margin i{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.bold{
+    font-size: 20px;
+}
+
+.benefits{
+    background-color: #9593e6;
+    padding: 2rem 0;
+}
+.benefits h2{
+    color: white;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+.benefits .flex{
+    display: block;
+}
+.benefits .col{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+.number{
+    font-size: 60px;
+    font-weight: 600;
+}
+.benefit{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.benefits p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.benefits .btn{
+    background-color: #9593e6;
+    color: white;
+    width: 120px;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.about-us{
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+.about-us h2{
+    padding-bottom: .5rem;
+    font-size: 40px;
+}
+.about-us p{
+    padding-bottom: 2rem;
+}
+.about-us .flex{
+    display: block;
+}
+.left p{
+    line-height: 35px;
+}
+.img-about{
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+.img-about img{
+    border-radius: 50%;
+}
+.quote{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    font-size: 70px;
+}
+.help{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+.right .btn{
+    color: white;
+    background-color: #9593e6;
+    width: 200px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.get-started{
+    text-align: center;
+    background-color: #9593e6;
+    color: white;
+    padding: 2rem 0;
+}
+.transparent{
+    color: rgba(255, 255, 255, 0.6);
+}
+.big-text{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.orange{
+    color: #fcc15f;
+    font-size: 45px;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.get-started p, span{
+    color: rgba(255, 255, 255, 0.9);
+}
+.get-started span{
+    font-size: 14px;
+}
+.get-started .btn-white{
+    color: #9593e6;
+    padding: 15px 20px;
+    border-radius: 30px;
+    width: 220px;
+    margin: 20px auto;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+.footer-top{
+    padding: 1.8rem 0;
+}
+.footer-bottom{
+    padding: 1.8rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .row-1, .row-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .larga{
+        width: calc((100% - 32%) - 2%);
+    }
+    .stretta{
+        width: 32%;
+    }
+    .row-2 .column{
+        width: 32%;
+    }
+    .larga h3{
+        text-align: left;
+    }
+    .img{
+        width: 400px;
+        margin-left: 15px;
+    }
+    .first-section .col p{
+        line-height: 35px;
+    }
+    .strategy-section img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .white-background p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .strategy-left h3{
+        font-size: 50px;
+    }
+
+    .testimonials .flex{
+        display: flex;
+        align-items: center;
+    }
+    .testimonials .row{
+        text-align: left;
+    }
+    .cit{
+        width: 80%;
+        margin-bottom: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .benefits .flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .benefits .column{
+        width: 49%;
+    }
+
+    .about-us .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-us .left{
+        width: 60%;
+    }
+    .about-us .right{
+        width: 30%
+    }
+    .about-us h2{
+        font-size: 60px;
+    }
+
+    .get-started .container{
+        width: 80%;
+    }
+    .big-text{
+        font-size: 35px;
+    }
+    .orange{
+        font-size: 65px;
+    }
+    .get-started .btn-white{
+        padding: 17px 20px;
+    }
+
+    footer .container{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .menu{
+        display: none;
+    }
+    .lista-menu{
+        display: inline-block;
+    }
+
+    .col-flex{
+        display: flex;
+    }
+    .col-flex .img{
+        align-self: flex-end;
+    }
+    .img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .first-section .col p{
+        line-height: 27px;
+    }
+    
+    .strategy-section{
+        padding-top: 5rem;
+    }
+    .strategy-section .container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .strategy-left, .white-background{
+        margin: 0 30px;
+    }
+    .white-background img{
+        width: 70%;
+        margin: 0 auto;
+    }
+     .strategy-left h3{
+        font-size: 30px;
+    }
+
+    .benefits .column{
+        width: 32%;
+    }
+
+    .quote{
+        right: 10px;
+        font-size: 80px;
+    }
+
+    .get-started .container{
+        width: 40%;
+    }
+    .get-started span{
+        font-size: 13px;
+    }
+    .get-started p{
+        font-size: 14px;
+    }
+
+    footer .container{
+        width: 40%;
+    }
+}

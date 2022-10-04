@@ -1,13 +1,429 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Layout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header>
+            <div class="flex container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+        
+                <div class="menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+        
+                <div class="lista-menu">
+                    <ul class="flex">
+                        <li>
+                            <a href="#">Planning</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+        
+                        <li class="btn btn-white">
+                            <a href="#">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+       
+    </header>
+
+    <main>
+
+        <section class="first-section">
+            <div class="container">
+                <div class="row-1">
+                    <div class="column larga">
+                        <div class="col col-flex">
+                           <div>
+                            <h3>Get a demo application</h3>
+                            
+                            <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga corporis eos. Esse, mollitia atque saepe nobis consectetur architecto.</p>
+                            <div class="btn btn-blue">
+                                <a href="#">
+                                    <span>
+                                        <i class="fa-brands fa-apple"></i>
+                                    </span> 
+                                    App Store
+                                </a> 
+                            </div>
+                           </div>
+
+                            <div class="img">
+                                <img src="img/phone.png" alt="Phone">
+                            </div>
+                        </div>
+                    </div>
     
+                    <div class="column stretta">
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fa-solid fa-file-code"></i>
+                            </div>
+                            <h3>Clean Code</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga corporis eos. Esse, mollitia atque saepe nobis consectetur architecto.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row-2">
+                    <div class="column">
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fa-solid fa-compass-drafting"></i>
+                            </div>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga corporis eos. Esse, mollitia atque saepe nobis consectetur architecto.</p>
+                        </div>
+                    </div>
+    
+                    <div class="column">
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h3>Developement</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga corporis eos. Esse, mollitia atque saepe nobis consectetur architecto.</p>
+                        </div>
+                    </div>
+    
+                    <div class="column">
+                        <div class="col">
+                            <div class="icon">
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </div>
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam fuga corporis eos. Esse, mollitia atque saepe nobis consectetur architecto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="strategy-section">
+            <div class="container">
+                
+                <div class="strategy-left">
+                    <img src="img/planning1.png" alt="planning 1">
+                    <h3>Strategic Planning</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor molestiae esse adipisci totam, et dolores dolorem fuga error nihil ipsam labore quisquam eaque, beatae pariatur vel a laborum optio?
+                    </p>
+                </div>
+
+                <div class="white-background">
+                    <img src="img/planning2.png" alt="planning 2">
+                    <h3>App Developement</h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor molestiae esse adipisci totam, et dolores. 
+                    </p>  
+                    <div class="strategy-icon">
+                        <a href="#"><i class="fa-solid fa-arrow-down-long"></i></a> 
+                    </div>              
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="text">
+                    <div>
+                        TESTIMONIALS
+                    </div>
+                    <h3>We are committed exptert partners</h3>
+
+                    <p>We place huge value on strong relationships and have seen the benefit they vring to our businness. Customer feedback is vital in helping us get it right.</p>
+                </div>
+    
+                <div class="row flex">
+
+                    <div class="img-testimonial">
+                        <img src="img/testimonial1.jpg" alt="testimonial 1">
+                    </div>
+
+                    <div class="cit">
+                        <p>
+                            <span class="no-margin"><i class="fa-solid fa-quote-left"></i></span> 
+                            Vitae suscipit tellus mauris a diam maevenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin. 
+                            <span class="no-margin"><i class="fa-solid fa-quote-right"></i></span>
+                        </p>
+
+                        <div class="bold">
+                            NAT REYNOLDS
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row flex">
+
+                    <div class="img-testimonial">
+                        <img src="img/testimonial2.jpg" alt="testimonial 2">
+                    </div>
+
+                    <div class="cit">
+                        <p>
+                            <span class="no-margin"><i class="fa-solid fa-quote-left"></i></span> 
+                            Pharetra vel turpis nunc eget lorem. Quisque id diam vel quam elementum pulvinar etiam. urna porttitor rhoncus dolor purus non enim praesent elementum.
+                            <span class="no-margin"><i class="fa-solid fa-quote-right"></i></span>
+                        </p>
+
+                        <div class="bold">
+                            CELIA ALMEDA
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="row flex">
+
+                    <div class="img-testimonial">
+                        <img src="img/testimonial3.jpg" alt="testimonial 3">
+                    </div>
+                    
+                    <div class="cit">
+                        <p>
+                            <span class="no-margin"><i class="fa-solid fa-quote-left"></i></span> 
+                            Mauris augue neque gravida in fermentum. Praesentsemper feugiat nibh sed pulvinar proin. Nibh nisl condimentum id venenatis a condimentum.
+                            <span class="no-margin"><i class="fa-solid fa-quote-right"></i></span>
+                        </p>
+
+                        <div class="bold">
+                            VOV ROBERTS
+                        </div>
+                    </div>               
+                 </div>
+            </div>
+            
+        </section>
+
+        <section class="benefits">
+
+           <div class="container"> 
+                <h2>Benefits of working with us</h2>
+                <div class="flex">
+                    <div class="column">
+                        <div class="col">
+                            <div class="number violet">
+                                01
+                            </div>
+
+                            <div class="benefit violet">
+                                High Quality
+                            </div>
+
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla dolor ab eaque assumenda nisi, deserunt explicabo architecto itaque mollitia cumque esse deleniti fugiat ea eligendi, et unde! Expedita, neque.
+                            </p>
+
+                            <div class="btn">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="col">
+                            <div class="number violet">
+                                02
+                            </div>
+
+                            <div class="benefit violet">
+                                Creative Team
+                            </div>
+
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla dolor ab eaque assumenda nisi, deserunt explicabo architecto itaque mollitia cumque esse deleniti fugiat ea eligendi, et unde! Expedita, neque.
+                            </p>
+
+                            <div class="btn">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="col">
+                            <div class="number violet">
+                                03
+                            </div>
+
+                            <div class="benefit violet">
+                                Amazing Results
+                            </div>
+
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla dolor ab eaque assumenda nisi, deserunt explicabo architecto itaque mollitia cumque esse deleniti fugiat ea eligendi, et unde! Expedita, neque.
+                            </p>
+
+                            <div class="btn">
+                                <a href="#">more</a>
+                            </div>                        
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="col">
+                            <div class="number violet">
+                                04
+                            </div>
+
+                            <div class="benefit violet">
+                                Best Pricing
+                            </div>
+
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla dolor ab eaque assumenda nisi, deserunt explicabo architecto itaque mollitia cumque esse deleniti fugiat ea eligendi, et unde! Expedita, neque.
+                            </p>
+
+                            <div class="btn">
+                                <a href="#">more</a>
+                            </div>                        
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="col">
+                            <div class="number violet">
+                                05
+                            </div>
+
+                            <div class="benefit violet">
+                                Innovation
+                            </div>
+
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla dolor ab eaque assumenda nisi, deserunt explicabo architecto itaque mollitia cumque esse deleniti fugiat ea eligendi, et unde! Expedita, neque.
+                            </p>
+
+                            <div class="btn">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="col">
+                            <div class="number violet">
+                                06
+                            </div>
+
+                            <div class="benefit violet">
+                                24/7 Support
+                            </div>
+
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nulla dolor ab eaque assumenda nisi, deserunt explicabo architecto itaque mollitia cumque esse deleniti fugiat ea eligendi, et unde! Expedita, neque.
+                            </p>
+
+                            <div class="btn">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                
+                <div class="flex">
+                    <div class="column left">
+                        <h2 class="violet">About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nemo eaque mollitia voluptatem exercitationem officiis eum rem cupiditate quibusdam veritatis, perspiciatis consequatur repellendus recusandae pariatur placeat enim omnis voluptas vero? perspiciatis consequatur repellendus recusandae pariatur placeat enim omnis voluptas vero, perspiciatis consequatur repellendus recusandae pariatur placeat enim omnis voluptas vero.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, molestias commodi obcaecati pariatur, quae minima nihil aperiam ex ad mollitia rerum ab laboriosam praesentium non odio eveniet tempore hic accusantium! Click again or double click to start editing the text.</p>
+                    </div>
+    
+                    <div class="column right">
+                        <div class="img-about">
+                            <img src="img/about.jpg" alt="About">
+                            <div class="quote violet">
+                                <i class="fa-solid fa-quote-left"></i> 
+                            </div>
+                        </div>
+                        <div class="violet help">
+                            I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.
+                        </div>
+                        <div class="btn">
+                            <span><i class="fa-brands fa-linkedin"></i></span> Find me on linkedin
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="get-started">
+            <div class="container">
+                <div class="transparent">
+                    GET STARTED
+                </div>
+                <div class="big-text">
+                    Simple, Transparent Pricing
+                </div>
+                <div class="orange">
+                    It's Free!
+                </div>
+                <p>We're still in beta and we will be for awhile. As er add more functionality, we'll look into other plans whit more controls.</p>
+                <div class="btn btn-white">
+                    <a href="#">Get Started</a>
+                </div>
+                
+                <span>
+                    Copyright 2021 Boolean
+                </span>
+                <span>
+                    Classe XX
+                </span> 
+                <span>
+                    <span class="underline">
+                        <a href="#">Privacy Policy</a>
+                    </span>
+                </span>
+            </div>
+           
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellat soluta iure consectetur possimus officia beatae sed placeat.
+            </div>
+    
+            <div class="footer-bottom">
+                <a class="violet underline" href="#">Lorem ipsum</a> dolor sit amet consectetur <a class="violet underline" href="#">Boolean Careers</a>
+            </div>
+        </div>
+        
+    </footer>
+
 </body>
 </html>
